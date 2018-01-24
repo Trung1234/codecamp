@@ -1,0 +1,10 @@
+/home/vagroup/dotnetproject/codecampmail/bin/Debug/netcoreapp2.0/codecampmail.deps.json
+/home/vagroup/dotnetproject/codecampmail/bin/Debug/netcoreapp2.0/codecampmail.runtimeconfig.json
+/home/vagroup/dotnetproject/codecampmail/bin/Debug/netcoreapp2.0/codecampmail.runtimeconfig.dev.json
+/home/vagroup/dotnetproject/codecampmail/bin/Debug/netcoreapp2.0/codecampmail.dll
+/home/vagroup/dotnetproject/codecampmail/bin/Debug/netcoreapp2.0/codecampmail.pdb
+/home/vagroup/dotnetproject/codecampmail/obj/Debug/netcoreapp2.0/codecampmail.csproj.CoreCompileInputs.cache
+/home/vagroup/dotnetproject/codecampmail/obj/Debug/netcoreapp2.0/codecampmail.AssemblyInfoInputs.cache
+/home/vagroup/dotnetproject/codecampmail/obj/Debug/netcoreapp2.0/codecampmail.AssemblyInfo.cs
+/home/vagroup/dotnetproject/codecampmail/obj/Debug/netcoreapp2.0/codecampmail.dll
+/home/vagroup/dotnetproject/codecampmail/obj/Debug/netcoreapp2.0/codecampmail.pdb
