@@ -7,10 +7,11 @@ namespace codecamp2
     {
         static void Main(string[] args)
         {
-            Bai1();
-            // Bai3();
+            // Bai1();
+            Bai3();
         }
         static void Bai1(){
+            Console.WriteLine("Hay doan mot so trong khoang -100 va 100");
             Console.WriteLine("Hay nhap vao 1 so ");
             var a = Int32.Parse( Console.ReadLine() );
             Random rnd = new Random();
