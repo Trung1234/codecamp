@@ -29,8 +29,12 @@ namespace codecamp2
                     count ++;
                     if(count==10){
                         Console.WriteLine("Ban da nhap qua 10 lan");
+                        Console.WriteLine("Game over");
                         break;
                     }
+                    
+                }
+                if(a==result){
                     Console.WriteLine("You win with ... guesses. ");
                 }
                 
