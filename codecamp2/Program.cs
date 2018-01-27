@@ -7,8 +7,8 @@ namespace codecamp2
     {
         static void Main(string[] args)
         {
-            // Bai1();
-            Bai3();
+            Bai1();
+            // Bai3();
         }
         static void Bai1(){
             Console.WriteLine("Hay nhap vao 1 so ");
@@ -31,9 +31,10 @@ namespace codecamp2
                         Console.WriteLine("Ban da nhap qua 10 lan");
                         break;
                     }
+                    Console.WriteLine("You win with ... guesses. ");
                 }
                 
-                Console.WriteLine("You win with ... guesses. ");
+                
             }catch(FormatException e){
                 Console.WriteLine("nhap sai dinh dang ");
                 Console.WriteLine(e.Message);
