@@ -7,8 +7,8 @@ namespace codecamp2
     {
         static void Main(string[] args)
         {
-            // Bai1();
-            Bai3();
+            Bai1();
+            // Bai3();
         }
         static void Bai1(){
             Console.WriteLine("Hay doan mot so trong khoang -100 va 100");
@@ -36,7 +36,7 @@ namespace codecamp2
                     
                 }
                 if(a==result){
-                    Console.WriteLine("You win with ... guesses. ");
+                    Console.WriteLine("You win with ... guesses. The correct number is: {0}",a);
                 }
                 
                 
