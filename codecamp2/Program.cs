@@ -7,8 +7,8 @@ namespace codecamp2
     {
         static void Main(string[] args)
         {
-            Bai1();
-            // Bai3();
+            // Bai1();
+            Bai3();
         }
         static void Bai1(){
             Console.WriteLine("Hay doan mot so trong khoang -100 va 100");
@@ -47,29 +47,36 @@ namespace codecamp2
             }
         }
         static void Bai3(){
-            
-            Console.WriteLine("nhap phan tu cua mang");
-            int n = Int32.Parse( Console.ReadLine() );
-            int[] array = new int[n];
-       
-            for(int i=0;i< array.Length;i++){
-                Console.Write("phan tu thu {0} ",i);
-                array[i] = Int32.Parse( Console.ReadLine() );
+            try{
+                Console.WriteLine("nhap phan tu cua mang");
+                int n = Int32.Parse( Console.ReadLine() );
+                List<int> array = new List<int>();
+        
+                for(int i=0;i< n;i++){
+                    Console.Write("phan tu thu {0} ",i);
+                    int input = Int32.Parse(Console.ReadLine() );
+                    array.Add(input);
+                }
+                for(int i=0;i< array.Count;i++){
+                    Console.WriteLine(array[i]);
+                }
+                
+        
+                if (check(array) == true)
+                    Console.WriteLine("Yes. This is a consecutive array of numbers");
+                else     
+                    Console.WriteLine("No. This is not a consecutive array of numbers");
+            }catch(FormatException e){
+                Console.WriteLine("nhap sai dinh dang ");
+                Console.WriteLine(e.Message);
+                
             }
-            for(int i=0;i< array.Length;i++){
-                Console.WriteLine(array[i]);
-            }
             
-    
-            if (check(array) == true)
-                Console.WriteLine("Yes. This is a consecutive array of numbers");
-            else     
-                Console.WriteLine("No. This is not a consecutive array of numbers");
             
         }
-        static bool check(int[] array){
+        static bool check(List<int> array){
             int len = array[1] - array[0];
-            for(int i=1 ;i< array.Length -1 ;i++){
+            for(int i=1 ;i< array.Count -1 ;i++){
                 if(array[i]!=array[i+1]-len){
                     break;
                 }
