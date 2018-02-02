@@ -8,8 +8,94 @@ namespace codecamp2
         static void Main(string[] args)
         {
             // Bai1();
-            Bai3();
+            Bai2();
+            // Bai3();
         }
+        static void Bai2(){
+            UProgram uProgram = new UProgram("Information Technology");
+            Degree baCheLor = new Degree("BacheLor");
+
+            uProgram.AddDegree(baCheLor);
+
+            Course courseC = new Course("Programming with C#");
+
+            Course courseJavascript = new Course("JavaScript for beginner");
+
+            baCheLor.AddCourse(courseC);
+            baCheLor.AddCourse(courseJavascript);
+
+            Student trung = new Student("Trung", 24);
+            Student duy = new Student("Duy", 24);
+            Student hieu = new Student("Hieu", 24);
+            Student duc = new Student("Duc", 24);
+            Student linh = new Student("Linh", 24);
+
+            Teacher huy = new Teacher("QuangHuyDx",30);
+            Teacher cuong = new Teacher("Trinh Minh Cuong",30);
+
+            courseC.addStudent(trung);
+            courseC.addStudent(duy);
+            courseC.addStudent(hieu);
+
+            courseC.addTeacher(huy);
+
+            courseJavascript.addStudent(trung);
+            courseJavascript.addStudent(duy);
+            courseJavascript.addStudent(linh);
+            courseJavascript.addStudent(duc);
+
+            courseJavascript.addTeacher(huy);
+            courseJavascript.addTeacher(cuong);
+
+            Console.WriteLine("Name of this program is {0}",uProgram.Name);
+            Console.WriteLine("Name of the degrees is ");
+            foreach (var degree in uProgram.degreeList)
+            {
+                Console.WriteLine(degree.Name);
+            }
+            Console.WriteLine("Name of courses: ");
+
+            foreach (var course in baCheLor.courseList)
+            {
+                Console.WriteLine(course.Name);
+            }
+
+            Console.WriteLine("Total Number of student: {0}",Student.CountStudent());
+            Console.WriteLine("Total Number of teacher: {0}",Teacher.CountTeacher());
+
+            Console.WriteLine("Information in first Course");
+
+            Console.WriteLine("Total Number of student in first course : {0}",baCheLor.courseList[0].studentList.Count);
+            Console.WriteLine("Total Number of teacher in first course: {0}",baCheLor.courseList[0].teacherList.Count);
+            Console.WriteLine("Name of students in first course: ");
+            foreach (var student in baCheLor.courseList[0].studentList)
+            {
+                Console.WriteLine(student.Name);
+            }
+            Console.WriteLine("Name of teachers in first course: ");
+            foreach (var teacher in baCheLor.courseList[0].teacherList)
+            {
+                Console.WriteLine(teacher.Name);
+            }
+
+            Console.WriteLine("Information in second Course");
+
+            Console.WriteLine("Total Number of student in second course : {0}",baCheLor.courseList[1].studentList.Count);
+            Console.WriteLine("Total Number of teacher in second course: {0}",baCheLor.courseList[1].teacherList.Count);
+            Console.WriteLine("Name of students in second course: ");
+            foreach (var student in baCheLor.courseList[1].studentList)
+            {
+                Console.WriteLine(student.Name);
+            }
+            Console.WriteLine("Name of teachers in second course: ");
+            foreach (var teacher in baCheLor.courseList[1].teacherList)
+            {
+                Console.WriteLine(teacher.Name);
+            }
+        
+        }
+
+
         static void Bai1(){
             Console.WriteLine("Hay doan mot so trong khoang -100 va 100");
             Console.WriteLine("Hay nhap vao 1 so ");
@@ -87,6 +173,11 @@ namespace codecamp2
             }
             return false;
         }
+
+
+
+
+
         // static void Bai3Cach2(){
         //      int[] numSequence = {1,2,3,4,5};
         //     bool isInSequence = numSequence.SequenceEqual(Enumerable.Range(1, numSequence.Count()));
