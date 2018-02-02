@@ -8,8 +8,8 @@ namespace codecamp2
         static void Main(string[] args)
         {
             // Bai1();
-            Bai2();
-            // Bai3();
+            // Bai2();
+            Bai3();
         }
         static void Bai2(){
             UProgram uProgram = new UProgram("Information Technology");
@@ -65,32 +65,33 @@ namespace codecamp2
             Console.WriteLine("Total Number of teacher: {0}",Teacher.CountTeacher());
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Information in first Course");
-
-            Console.WriteLine("Total Number of student in first course : {0}",baCheLor.courseList[0].studentList.Count);
-            Console.WriteLine("Total Number of teacher in first course: {0}",baCheLor.courseList[0].teacherList.Count);
-            Console.WriteLine("Name of students in first course: ");
-            foreach (var student in baCheLor.courseList[0].studentList)
+            var firstcourse = baCheLor.courseList[0];
+            Console.WriteLine("Total Number of student in {0} course: {1}",firstcourse.Name,firstcourse.studentList.Count);
+            Console.WriteLine("Total Number of teacher in {0} course: {1}",firstcourse.Name,firstcourse.teacherList.Count);
+            Console.WriteLine($"Name of students in {firstcourse.Name}: ");
+            foreach (var student in firstcourse.studentList)
             {
                 Console.WriteLine(student.Name);
             }
-            Console.WriteLine("Name of teachers in first course: ");
-            foreach (var teacher in baCheLor.courseList[0].teacherList)
+            Console.WriteLine($"Name of teachers in {firstcourse.Name} course: ");
+            foreach (var teacher in firstcourse.teacherList)
             {
                 Console.WriteLine(teacher.Name);
             }
             Console.WriteLine("--------------------------------");
 
-            Console.WriteLine("Information in second Course");
+            var secondcourse = baCheLor.courseList[1];
+            Console.WriteLine($"Information in {secondcourse.Name} Course");
 
-            Console.WriteLine("Total Number of student in second course : {0}",baCheLor.courseList[1].studentList.Count);
-            Console.WriteLine("Total Number of teacher in second course: {0}",baCheLor.courseList[1].teacherList.Count);
-            Console.WriteLine("Name of students in second course: ");
-            foreach (var student in baCheLor.courseList[1].studentList)
+            Console.WriteLine("Total Number of student in {0} course : {1}",secondcourse.Name,secondcourse.studentList.Count);
+            Console.WriteLine("Total Number of teacher in {0} course: {1}",secondcourse.Name,secondcourse.teacherList.Count);
+            Console.WriteLine($"Name of students in {secondcourse.Name} course: ");
+            foreach (var student in secondcourse.studentList)
             {
                 Console.WriteLine(student.Name);
             }
-            Console.WriteLine("Name of teachers in second course: ");
-            foreach (var teacher in baCheLor.courseList[1].teacherList)
+            Console.WriteLine($"Name of teachers in {secondcourse.Name}  course: ");
+            foreach (var teacher in secondcourse.teacherList)
             {
                 Console.WriteLine(teacher.Name);
             }
