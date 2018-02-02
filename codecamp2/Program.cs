@@ -60,9 +60,10 @@ namespace codecamp2
                 Console.WriteLine(course.Name);
             }
 
+            Console.WriteLine("--------------------------------");
             Console.WriteLine("Total Number of student: {0}",Student.CountStudent());
             Console.WriteLine("Total Number of teacher: {0}",Teacher.CountTeacher());
-
+            Console.WriteLine("--------------------------------");
             Console.WriteLine("Information in first Course");
 
             Console.WriteLine("Total Number of student in first course : {0}",baCheLor.courseList[0].studentList.Count);
@@ -77,6 +78,7 @@ namespace codecamp2
             {
                 Console.WriteLine(teacher.Name);
             }
+            Console.WriteLine("--------------------------------");
 
             Console.WriteLine("Information in second Course");
 
