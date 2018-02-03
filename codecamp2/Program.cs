@@ -8,8 +8,8 @@ namespace codecamp2
         static void Main(string[] args)
         {
             // Bai1();
-            // Bai2();
-            Bai3();
+            Bai2();
+            // Bai3();
         }
         static void Bai2(){
             UProgram uProgram = new UProgram("Information Technology");
