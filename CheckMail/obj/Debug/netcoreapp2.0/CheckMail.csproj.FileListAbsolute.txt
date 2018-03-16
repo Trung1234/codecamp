@@ -1,0 +1,10 @@
+/home/vagroup/codecamp/CheckMail/bin/Debug/netcoreapp2.0/CheckMail.deps.json
+/home/vagroup/codecamp/CheckMail/bin/Debug/netcoreapp2.0/CheckMail.runtimeconfig.json
+/home/vagroup/codecamp/CheckMail/bin/Debug/netcoreapp2.0/CheckMail.runtimeconfig.dev.json
+/home/vagroup/codecamp/CheckMail/bin/Debug/netcoreapp2.0/CheckMail.dll
+/home/vagroup/codecamp/CheckMail/bin/Debug/netcoreapp2.0/CheckMail.pdb
+/home/vagroup/codecamp/CheckMail/obj/Debug/netcoreapp2.0/CheckMail.csproj.CoreCompileInputs.cache
+/home/vagroup/codecamp/CheckMail/obj/Debug/netcoreapp2.0/CheckMail.AssemblyInfoInputs.cache
+/home/vagroup/codecamp/CheckMail/obj/Debug/netcoreapp2.0/CheckMail.AssemblyInfo.cs
+/home/vagroup/codecamp/CheckMail/obj/Debug/netcoreapp2.0/CheckMail.dll
+/home/vagroup/codecamp/CheckMail/obj/Debug/netcoreapp2.0/CheckMail.pdb

@@ -1,11 +1,7 @@
 # codecamp
 
 
-lenh chay chuong trinh:
-
-dotnet run input.txt output.txt
-
-Lệnh chạy chương trình :
+Lệnh chạy chương trình codecamp Mail:
 
 dotnet run input.txt output.txt
 

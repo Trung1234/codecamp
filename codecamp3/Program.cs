@@ -9,11 +9,11 @@ namespace codecamp3
         static void Main(string[] args)
         {
             // Bai1();
-            // Bai2();
-            Bai3();
+            Bai2();
+            // Bai3();
         }
         static void Bai3(){
-           List<string> array = new List<string> {"we","they","he","she","phep","tet","it"};
+           List<string> array = new List<string> {"hieu","em","con","phep","tet","it"};
            if(GetTheLastWord(array) == null){
                Console.WriteLine("null");
            }else{
@@ -37,7 +37,7 @@ namespace codecamp3
         }
          static void Bai2(){
       
-            List<int> numbers = new List<int>{1, 5, 3};
+            List<int> numbers = new List<int>{1, 5, 3, 3};
             List<int> squares = new List<int>{1, 25, 9, 9};
             Console.WriteLine("{0}",TestForSquares(numbers,squares));
           

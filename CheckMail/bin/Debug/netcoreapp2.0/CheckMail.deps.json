@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "codecampmail/1.0.0": {
+      "CheckMail/1.0.0": {
         "runtime": {
-          "codecampmail.dll": {}
+          "CheckMail.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "codecampmail/1.0.0": {
+    "CheckMail/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

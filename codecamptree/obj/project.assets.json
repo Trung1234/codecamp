@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vagroup/dotnetproject/codecampmail/codecampmail.csproj",
-      "projectName": "codecampmail",
-      "projectPath": "/home/vagroup/dotnetproject/codecampmail/codecampmail.csproj",
+      "projectUniqueName": "/home/vagroup/codecamp/codecamptree/codecamptree.csproj",
+      "projectName": "codecamptree",
+      "projectPath": "/home/vagroup/codecamp/codecamptree/codecamptree.csproj",
       "packagesPath": "/home/vagroup/.nuget/packages/",
-      "outputPath": "/home/vagroup/dotnetproject/codecampmail/obj/",
+      "outputPath": "/home/vagroup/codecamp/codecamptree/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

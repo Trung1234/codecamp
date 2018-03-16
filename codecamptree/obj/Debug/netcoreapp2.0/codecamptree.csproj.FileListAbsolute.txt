@@ -1,0 +1,10 @@
+/home/vagroup/codecamp/codecamptree/bin/Debug/netcoreapp2.0/codecamptree.deps.json
+/home/vagroup/codecamp/codecamptree/bin/Debug/netcoreapp2.0/codecamptree.runtimeconfig.json
+/home/vagroup/codecamp/codecamptree/bin/Debug/netcoreapp2.0/codecamptree.runtimeconfig.dev.json
+/home/vagroup/codecamp/codecamptree/bin/Debug/netcoreapp2.0/codecamptree.dll
+/home/vagroup/codecamp/codecamptree/bin/Debug/netcoreapp2.0/codecamptree.pdb
+/home/vagroup/codecamp/codecamptree/obj/Debug/netcoreapp2.0/codecamptree.csproj.CoreCompileInputs.cache
+/home/vagroup/codecamp/codecamptree/obj/Debug/netcoreapp2.0/codecamptree.AssemblyInfoInputs.cache
+/home/vagroup/codecamp/codecamptree/obj/Debug/netcoreapp2.0/codecamptree.AssemblyInfo.cs
+/home/vagroup/codecamp/codecamptree/obj/Debug/netcoreapp2.0/codecamptree.dll
+/home/vagroup/codecamp/codecamptree/obj/Debug/netcoreapp2.0/codecamptree.pdb
